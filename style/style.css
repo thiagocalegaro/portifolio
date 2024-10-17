@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #2a2a2a;
+    background-color: #121212;
+}
+
+.section-box {
+    border-color: solid 2px #121212;
+    background-color: #1f1f1f;
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+color: #ffffff;
+     /* Cor para os títulos */
+}
+h1{
+    font-size: 20px;
+}
+
+footer {
+    background-color: #1f1f1f;
+}
+
+
+header {
+    background-color: #1f1f1f;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+
+main {
+    padding: 2rem;
+}
+
+div {
+    margin-bottom: 2rem;
+}
+
+
+.perfil{
+    height: 100px;
+    width: 100px;
+    float: right;
+    position: absolute;
+    margin-left: 950px;
+}
+.ola{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+
+}
+p, li{
+    /* Primeiro passo: definir um degradê como fundo */
+    background-image: linear-gradient(to right, rebeccapurple, steelblue, turquoise);
+    
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    -webkit-text-fill-color: transparent;
+  
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+    font-weight: bold;
+  }
+  .dev{
+    font-size: 40px;
+  }
+  #sobre{
+    height: 270px;
+    width: 550px;
+    float: left;
+  }
+  #tecnologias{
+    height: 135px;
+    width: 550px;
+    float: left;
+  }
+  #habilidades{
+    height: 270px;
+    width: 550px;
+    float: right;
+  }
+  #contato{
+    width: 550px;
+    float: right;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f1f;
+    clear: both;
+}
+.hard{
+    margin-left: 10px;
+    float: left;
+}
+.soft{
+    float: right;
+    margin-right: 15px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #03a9f4;
+}
+.git{
+    width: 48px;
+    height: 48px;
+}
+.navbar-brand{
+    font-style: italic;
+    margin-bottom: 30px;
+
+}
+header{
+    width: 1100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.navbar-brand{
+    font-family: cursive;
+}
